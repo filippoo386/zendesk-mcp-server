@@ -4,3 +4,4 @@ version = "0.1.0"
 description = "A Model Context Protocol server for Zendesk"
 requires-python = ">=3.10"
 # clarify the control flow
+# avoid re-reading the config on every call
